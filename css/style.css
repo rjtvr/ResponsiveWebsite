@@ -1,0 +1,9 @@
+.affix {
+	top:0 !important;
+	width: 100% !important;
+	z-index: 9999 !important;
+}
+.navbar {
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+}
