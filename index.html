@@ -10,16 +10,60 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<style type="text/css">
 
+
+
   	</style>
+
+  	<!-- for tooltip -->
+
+  	<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip();   
+		});
+	</script>
 </head>
 <body>
+	<div class="alert alert-success alert-dismissible" style="margin-bottom: 0px">
+	 	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Hi ! Rajat Here</strong> Thanks for visiting my page
+	</div>
 	<div class="jumbotron text-center" style="border-radius: 0px; height: 400px; margin-bottom: 0px">
-		<h1> <kbd>&lt;h1&gt;</kbd> Hi ! I'm Rajat Verma </h1>
-		<h2> <kbd>&lt;h2&gt;</kbd> This is Responsive Website </h2>
-		<h3> <kbd>&lt;h3&gt;</kbd> I made this website using Bootstrap </h3>
-		<h4> <kbd>&lt;h4&gt;</kbd> I'm also going to use HTML5 </h4>
-		<h5> <kbd>&lt;h5&gt;</kbd> And CSS3 is also used </h5>
-		<h6> <kbd>&lt;h6&gt;</kbd> Above examples are of heading </h6>
+		<h1 class="example" >
+			<a style="text-decoration: none;" href="#" data-toggle="tooltip" data-placement="top" title="Hi!">
+				<kbd>&lt;h1&gt;</kbd>
+			</a> 
+			Hi ! I'm Rajat Verma  
+		</h1>
+		<h2 class="example" > 
+			<a style="text-decoration: none;" href="#" data-toggle="tooltip" data-placement="right" title="Hi! Again">
+				<kbd>&lt;h2&gt;</kbd> 
+			</a>
+				This is Responsive Website 
+		</h2>
+		<h3 class="example" > 
+			<a style="text-decoration: none;" href="#" data-toggle="tooltip" data-placement="bottom" title="Hi! You still here">
+				<kbd>&lt;h3&gt;</kbd>
+			</a>
+				I made this website using Bootstrap 
+		</h3>
+		<h4 class="example" >
+			<a style="text-decoration: none;" href="#" data-toggle="tooltip" data-placement="top" title="Now its Enough">
+				<kbd>&lt;h4&gt;</kbd>
+			</a>	
+				I'm also going to use HTML5
+		</h4>
+		<h5 class="example" > 
+			<a style="text-decoration: none;" href="#" data-toggle="tooltip" data-placement="right" title="Bye!">
+				<kbd>&lt;h5&gt;</kbd> 
+			</a>	
+				And CSS3 is also used 
+		</h5>
+		<h6 class="example" > 
+			<a style="text-decoration: none;" href="#" data-toggle="tooltip" data-placement="bottom" title="Yes! Bye">
+				<kbd>&lt;h6&gt;</kbd> 
+			</a>
+				Above examples are of heading 
+		</h6>
 	</div>
 
 	<nav class="navbar navbar-inverse " data-spy="affix" data-offset-top="397">
@@ -45,49 +89,70 @@
     	</div>		
 	</nav>
 
-	<div class="container">
-		<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus felis quis odio porttitor, nec ultrices lectus faucibus. Proin purus ligula, ultrices eu congue imperdiet, imperdiet sit amet massa. Praesent lobortis felis id quam ultricies dictum. Nullam dictum lorem quis efficitur vestibulum. Vestibulum mattis ac lacus quis scelerisque. Nulla condimentum urna quis dui rhoncus facilisis. Phasellus sodales vitae est at dignissim. Cras et sodales sem, sit amet tincidunt ante. Vivamus molestie laoreet leo, quis efficitur neque mollis ac.
-
-Nullam eget libero ac lacus eleifend tincidunt eu id dolor. Ut sagittis dui at sapien faucibus auctor. Pellentesque efficitur nulla elit, laoreet rutrum turpis mollis sit amet. Quisque pretium feugiat dictum. Nulla libero quam, euismod eu lacus sit amet, mattis tempor dui. Suspendisse potenti. Morbi congue aliquet eros eu pharetra. Donec condimentum nunc sit amet tortor suscipit consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ipsum purus, pulvinar at ultricies nec, mattis sodales nunc. Donec ante est, lacinia ac viverra sit amet, dictum eget dui. Nunc neque justo, laoreet a semper ut, varius quis ligula. Maecenas quis ultricies ex. Pellentesque id quam nec felis faucibus pulvinar id id diam.
-
-Praesent consequat lacinia ultricies. Phasellus tristique nisi est, sit amet iaculis quam aliquet id. Vivamus dapibus porttitor blandit. Nulla congue metus in purus rutrum, eget elementum augue dignissim. Nulla sed venenatis turpis. Cras dapibus pretium magna, feugiat tristique odio consequat a. Quisque vel purus in purus volutpat tristique ut ac diam. Vivamus placerat dictum augue vitae sodales. Phasellus ut urna ornare, tristique justo efficitur, interdum nunc. Duis interdum tortor non tortor congue, vel tincidunt massa mattis. Proin venenatis faucibus risus eu molestie. In sagittis blandit vehicula. Sed euismod ligula lectus, et pulvinar diam eleifend ac. Etiam sit amet sollicitudin enim. Proin sollicitudin, odio vel iaculis mollis, lacus velit mollis risus, quis sagittis nunc arcu vitae diam. Duis consectetur nec sem ac tempor.
-
-Nullam luctus et sapien vitae varius. Sed in dui dictum, pharetra est sed, sagittis massa. Ut placerat dolor nec lorem tristique, vitae condimentum ligula pharetra. Nulla facilisi. Praesent lacus ipsum, iaculis non sapien eu, ullamcorper consequat enim. Aenean molestie vestibulum tempor. Quisque facilisis lacus sed suscipit condimentum. Pellentesque sit amet accumsan nisi, at bibendum nisl. Morbi tempor dui quis congue pellentesque.
-
-Mauris ultrices neque non imperdiet elementum. Pellentesque vestibulum augue ac augue porta molestie. Sed sodales tellus arcu, at faucibus orci condimentum dictum. Vivamus in elit blandit, tincidunt urna pharetra, maximus lectus. Proin ac sapien vel libero aliquet faucibus vel et urna. Aenean eget mi ut nunc lobortis volutpat. Vestibulum blandit tempor est quis euismod. Donec pellentesque urna nec metus molestie, a aliquam elit interdum. Praesent pellentesque efficitur purus efficitur fringilla. Mauris tempus iaculis consectetur. Proin nec euismod lacus. Praesent sed aliquet sapien.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus felis quis odio porttitor, nec ultrices lectus faucibus. Proin purus ligula, ultrices eu congue imperdiet, imperdiet sit amet massa. Praesent lobortis felis id quam ultricies dictum. Nullam dictum lorem quis efficitur vestibulum. Vestibulum mattis ac lacus quis scelerisque. Nulla condimentum urna quis dui rhoncus facilisis. Phasellus sodales vitae est at dignissim. Cras et sodales sem, sit amet tincidunt ante. Vivamus molestie laoreet leo, quis efficitur neque mollis ac.
-
-Nullam eget libero ac lacus eleifend tincidunt eu id dolor. Ut sagittis dui at sapien faucibus auctor. Pellentesque efficitur nulla elit, laoreet rutrum turpis mollis sit amet. Quisque pretium feugiat dictum. Nulla libero quam, euismod eu lacus sit amet, mattis tempor dui. Suspendisse potenti. Morbi congue aliquet eros eu pharetra. Donec condimentum nunc sit amet tortor suscipit consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ipsum purus, pulvinar at ultricies nec, mattis sodales nunc. Donec ante est, lacinia ac viverra sit amet, dictum eget dui. Nunc neque justo, laoreet a semper ut, varius quis ligula. Maecenas quis ultricies ex. Pellentesque id quam nec felis faucibus pulvinar id id diam.
-
-Praesent consequat lacinia ultricies. Phasellus tristique nisi est, sit amet iaculis quam aliquet id. Vivamus dapibus porttitor blandit. Nulla congue metus in purus rutrum, eget elementum augue dignissim. Nulla sed venenatis turpis. Cras dapibus pretium magna, feugiat tristique odio consequat a. Quisque vel purus in purus volutpat tristique ut ac diam. Vivamus placerat dictum augue vitae sodales. Phasellus ut urna ornare, tristique justo efficitur, interdum nunc. Duis interdum tortor non tortor congue, vel tincidunt massa mattis. Proin venenatis faucibus risus eu molestie. In sagittis blandit vehicula. Sed euismod ligula lectus, et pulvinar diam eleifend ac. Etiam sit amet sollicitudin enim. Proin sollicitudin, odio vel iaculis mollis, lacus velit mollis risus, quis sagittis nunc arcu vitae diam. Duis consectetur nec sem ac tempor.
-
-Nullam luctus et sapien vitae varius. Sed in dui dictum, pharetra est sed, sagittis massa. Ut placerat dolor nec lorem tristique, vitae condimentum ligula pharetra. Nulla facilisi. Praesent lacus ipsum, iaculis non sapien eu, ullamcorper consequat enim. Aenean molestie vestibulum tempor. Quisque facilisis lacus sed suscipit condimentum. Pellentesque sit amet accumsan nisi, at bibendum nisl. Morbi tempor dui quis congue pellentesque.
-
-Mauris ultrices neque non imperdiet elementum. Pellentesque vestibulum augue ac augue porta molestie. Sed sodales tellus arcu, at faucibus orci condimentum dictum. Vivamus in elit blandit, tincidunt urna pharetra, maximus lectus. Proin ac sapien vel libero aliquet faucibus vel et urna. Aenean eget mi ut nunc lobortis volutpat. Vestibulum blandit tempor est quis euismod. Donec pellentesque urna nec metus molestie, a aliquam elit interdum. Praesent pellentesque efficitur purus efficitur fringilla. Mauris tempus iaculis consectetur. Proin nec euismod lacus. Praesent sed aliquet sapien.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus felis quis odio porttitor, nec ultrices lectus faucibus. Proin purus ligula, ultrices eu congue imperdiet, imperdiet sit amet massa. Praesent lobortis felis id quam ultricies dictum. Nullam dictum lorem quis efficitur vestibulum. Vestibulum mattis ac lacus quis scelerisque. Nulla condimentum urna quis dui rhoncus facilisis. Phasellus sodales vitae est at dignissim. Cras et sodales sem, sit amet tincidunt ante. Vivamus molestie laoreet leo, quis efficitur neque mollis ac.
-
-Nullam eget libero ac lacus eleifend tincidunt eu id dolor. Ut sagittis dui at sapien faucibus auctor. Pellentesque efficitur nulla elit, laoreet rutrum turpis mollis sit amet. Quisque pretium feugiat dictum. Nulla libero quam, euismod eu lacus sit amet, mattis tempor dui. Suspendisse potenti. Morbi congue aliquet eros eu pharetra. Donec condimentum nunc sit amet tortor suscipit consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ipsum purus, pulvinar at ultricies nec, mattis sodales nunc. Donec ante est, lacinia ac viverra sit amet, dictum eget dui. Nunc neque justo, laoreet a semper ut, varius quis ligula. Maecenas quis ultricies ex. Pellentesque id quam nec felis faucibus pulvinar id id diam.
-
-Praesent consequat lacinia ultricies. Phasellus tristique nisi est, sit amet iaculis quam aliquet id. Vivamus dapibus porttitor blandit. Nulla congue metus in purus rutrum, eget elementum augue dignissim. Nulla sed venenatis turpis. Cras dapibus pretium magna, feugiat tristique odio consequat a. Quisque vel purus in purus volutpat tristique ut ac diam. Vivamus placerat dictum augue vitae sodales. Phasellus ut urna ornare, tristique justo efficitur, interdum nunc. Duis interdum tortor non tortor congue, vel tincidunt massa mattis. Proin venenatis faucibus risus eu molestie. In sagittis blandit vehicula. Sed euismod ligula lectus, et pulvinar diam eleifend ac. Etiam sit amet sollicitudin enim. Proin sollicitudin, odio vel iaculis mollis, lacus velit mollis risus, quis sagittis nunc arcu vitae diam. Duis consectetur nec sem ac tempor.
-
-Nullam luctus et sapien vitae varius. Sed in dui dictum, pharetra est sed, sagittis massa. Ut placerat dolor nec lorem tristique, vitae condimentum ligula pharetra. Nulla facilisi. Praesent lacus ipsum, iaculis non sapien eu, ullamcorper consequat enim. Aenean molestie vestibulum tempor. Quisque facilisis lacus sed suscipit condimentum. Pellentesque sit amet accumsan nisi, at bibendum nisl. Morbi tempor dui quis congue pellentesque.
-
-Mauris ultrices neque non imperdiet elementum. Pellentesque vestibulum augue ac augue porta molestie. Sed sodales tellus arcu, at faucibus orci condimentum dictum. Vivamus in elit blandit, tincidunt urna pharetra, maximus lectus. Proin ac sapien vel libero aliquet faucibus vel et urna. Aenean eget mi ut nunc lobortis volutpat. Vestibulum blandit tempor est quis euismod. Donec pellentesque urna nec metus molestie, a aliquam elit interdum. Praesent pellentesque efficitur purus efficitur fringilla. Mauris tempus iaculis consectetur. Proin nec euismod lacus. Praesent sed aliquet sapien.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus felis quis odio porttitor, nec ultrices lectus faucibus. Proin purus ligula, ultrices eu congue imperdiet, imperdiet sit amet massa. Praesent lobortis felis id quam ultricies dictum. Nullam dictum lorem quis efficitur vestibulum. Vestibulum mattis ac lacus quis scelerisque. Nulla condimentum urna quis dui rhoncus facilisis. Phasellus sodales vitae est at dignissim. Cras et sodales sem, sit amet tincidunt ante. Vivamus molestie laoreet leo, quis efficitur neque mollis ac.
-
-Nullam eget libero ac lacus eleifend tincidunt eu id dolor. Ut sagittis dui at sapien faucibus auctor. Pellentesque efficitur nulla elit, laoreet rutrum turpis mollis sit amet. Quisque pretium feugiat dictum. Nulla libero quam, euismod eu lacus sit amet, mattis tempor dui. Suspendisse potenti. Morbi congue aliquet eros eu pharetra. Donec condimentum nunc sit amet tortor suscipit consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ipsum purus, pulvinar at ultricies nec, mattis sodales nunc. Donec ante est, lacinia ac viverra sit amet, dictum eget dui. Nunc neque justo, laoreet a semper ut, varius quis ligula. Maecenas quis ultricies ex. Pellentesque id quam nec felis faucibus pulvinar id id diam.
-
-Praesent consequat lacinia ultricies. Phasellus tristique nisi est, sit amet iaculis quam aliquet id. Vivamus dapibus porttitor blandit. Nulla congue metus in purus rutrum, eget elementum augue dignissim. Nulla sed venenatis turpis. Cras dapibus pretium magna, feugiat tristique odio consequat a. Quisque vel purus in purus volutpat tristique ut ac diam. Vivamus placerat dictum augue vitae sodales. Phasellus ut urna ornare, tristique justo efficitur, interdum nunc. Duis interdum tortor non tortor congue, vel tincidunt massa mattis. Proin venenatis faucibus risus eu molestie. In sagittis blandit vehicula. Sed euismod ligula lectus, et pulvinar diam eleifend ac. Etiam sit amet sollicitudin enim. Proin sollicitudin, odio vel iaculis mollis, lacus velit mollis risus, quis sagittis nunc arcu vitae diam. Duis consectetur nec sem ac tempor.
-
-Nullam luctus et sapien vitae varius. Sed in dui dictum, pharetra est sed, sagittis massa. Ut placerat dolor nec lorem tristique, vitae condimentum ligula pharetra. Nulla facilisi. Praesent lacus ipsum, iaculis non sapien eu, ullamcorper consequat enim. Aenean molestie vestibulum tempor. Quisque facilisis lacus sed suscipit condimentum. Pellentesque sit amet accumsan nisi, at bibendum nisl. Morbi tempor dui quis congue pellentesque.
-
-Mauris ultrices neque non imperdiet elementum. Pellentesque vestibulum augue ac augue porta molestie. Sed sodales tellus arcu, at faucibus orci condimentum dictum. Vivamus in elit blandit, tincidunt urna pharetra, maximus lectus. Proin ac sapien vel libero aliquet faucibus vel et urna. Aenean eget mi ut nunc lobortis volutpat. Vestibulum blandit tempor est quis euismod. Donec pellentesque urna nec metus molestie, a aliquam elit interdum. Praesent pellentesque efficitur purus efficitur fringilla. Mauris tempus iaculis consectetur. Proin nec euismod lacus. Praesent sed aliquet sapien.
-		</p>
+	<div class="container text-justify" >
+		<div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<img class="img-responsive" src="assets/RightSide1.png">
+			</div>
+			<div class="col-sm-8 col-xs-12">
+				<h4>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus felis quis odio porttitor, nec ultrices lectus faucibus. Proin purus ligula, ultrices eu congue imperdiet, imperdiet sit amet massa. Praesent lobortis felis id quam ultricies dictum. Nullam dictum lorem quis efficitur vestibulum. Vestibulum mattis ac lacus quis scelerisque. Nulla condimentum urna quis dui rhoncus facilisis. Phasellus sodales vitae est at dignissim. Cras et sodales sem, sit amet tincidunt ante. Vivamus molestie laoreet leo, quis efficitur neque mollis ac.
+					<br><br>	
+					Nullam eget libero ac lacus eleifend tincidunt eu id dolor. Ut sagittis dui at sapien faucibus auctor. Pellentesque efficitur nulla elit, laoreet rutrum turpis mollis sit amet. Quisque pretium feugiat dictum. Nulla libero quam, euismod eu lacus sit amet, mattis tempor dui. Suspendisse potenti. Morbi congue aliquet eros eu pharetra. Donec condimentum nunc sit amet tortor suscipit consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ipsum purus, pulvinar at ultricies nec, mattis sodales nunc. Donec ante est, lacinia ac viverra sit amet, dictum eget dui. Nunc neque justo, laoreet a semper ut, varius quis ligula. Maecenas quis ultricies ex. Pellentesque id quam nec felis faucibus pulvinar id id diam.
+					<br><br>
+					Praesent consequat lacinia ultricies. Phasellus tristique nisi est, sit amet iaculis quam aliquet id. Vivamus dapibus porttitor blandit. Nulla congue metus in purus rutrum, eget elementum augue dignissim. Nulla sed venenatis turpis. Cras dapibus pretium magna, feugiat tristique odio consequat a. Quisque vel purus in purus volutpat tristique ut ac diam. Vivamus placerat dictum augue vitae sodales. Phasellus ut urna ornare, tristique justo efficitur, interdum nunc. Duis interdum tortor non tortor congue, vel tincidunt massa mattis. Proin venenatis faucibus risus eu molestie. In sagittis blandit vehicula. Sed euismod ligula lectus, et pulvinar diam eleifend ac. Etiam sit amet sollicitudin enim. Proin sollicitudin, odio vel iaculis mollis, lacus velit mollis risus, quis sagittis nunc arcu vitae diam. Duis consectetur nec sem ac tempor.
+				</h4>
+			</div>
+		</div>	
 	</div>
+
+<div class="jumbotron">
+	<div class="container " >
+		<div class="row text-center" >
+		    <div class="col-sm-4 col-xs-12">
+			    <div class="panel panel-primary">
+			      	<div class="panel-heading">
+			      		Header <span class="glyphicon glyphicon-lock"></span>
+			      	</div>
+			      	<div class="panel-body">
+			      		Content
+			      	</div>
+			      	<div class="panel-footer">
+			      		Footer
+			      	</div>
+			    </div>
+		    </div>
+		    
+		    <div class="col-sm-4 col-xs-12">
+			    <div class="panel panel-primary">
+			      	<div class="panel-heading">
+			      		Header <span class="glyphicon glyphicon-glass"></span>
+			      	</div>
+			      	<div class="panel-body">
+			      		Content
+			      	</div>
+			      	<div class="panel-footer">
+			      		Footer
+			      	</div>
+			    </div>
+		    </div>
+		    
+		    <div class="col-sm-4 col-xs-12">
+			    <div class="panel panel-primary">
+			      	<div class="panel-heading">
+			      		Header <span class="glyphicon glyphicon-flag"></span>
+			      	</div>
+			      	<div class="panel-body">
+			      		Content
+			      	</div>
+			      	<div class="panel-footer">
+			      		Footer
+			      	</div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+</div>
 
 
 </body>
