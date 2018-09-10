@@ -4,6 +4,26 @@
 	z-index: 9999 !important;
 }
 .navbar {
-	margin-bottom: 0px !important;
 	border-radius: 0px !important;
+}
+
+@media screen and (max-width: 600px) {
+  h1.example {
+    font-size: 26px;
+  }
+    h2.example {
+    font-size: 24px;
+  }
+    h3.example {
+    font-size: 22px;
+  }
+    h4.example {
+    font-size: 20px;
+  }
+    h5.example {
+    font-size: 18px;
+  }
+    h6.example {
+    font-size: 16px;
+  }
 }
